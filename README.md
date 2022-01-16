@@ -12,7 +12,12 @@
 
 ## Step 2: Dynamic HTTP server with express.js
 
+* Dans notre implémentation de express-image/src/index.js, on génère aléatoirement des situations initiale pour une scène d'improvisation théâtrale. Pour changer de l'exemple donné en cours, on laisse au joueur le choix de son nom, prénom et genre, mais on lui impose la durée de l'improvisation (entre 30 sec et 20 mn), l'année, le pays, le jour de la semaine, la lettre de début de la pièce dans laquelle iel se trouve, ainsi que son animal de compagnie.
 
+
+
+
+* TODO : AJOUTER UN GITIGNORE A LA RACIDE AVEC node_modules/ DEDANS ET SUPPRIMER LE DOSSIER "src/node_modules"
 
 
 
