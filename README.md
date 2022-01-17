@@ -17,11 +17,6 @@
 
 
 
-* TODO : AJOUTER UN GITIGNORE A LA RACIDE AVEC node_modules/ DEDANS ET SUPPRIMER LE DOSSIER "src/node_modules"
-
-
-
-
 # A FAIRE : 
 
 - Be aware that the webcasts have been recorded in 2016. There is no change in the list of tasks to be done, but of course there are some differences in the details. For instance, the Docker images that we use to implement the solution have changed a bit and you will need to do some adjustments to the scripts. This is part of the work and we ask you to DOCUMENT WHAT THE REQUIRED ADAPTATIONS ARE, IN YOUR REPORT.
