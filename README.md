@@ -22,10 +22,13 @@
 ## Step 3: Reverse proxy with apache (static configuration)
 
 * Pour la démo : 
-* démarrer les 3 serveurs : **docker run -d --name apache_static api/apache_php** , **docker run -d --name express_dynamic api/express_students**, **run -p 8080:80 api/apache_rp**
+* démarrer les 3 serveurs : **docker run -d --name apache_static api/apache_php** , **docker run -d --name express_dynamic api/express_students**, **docker run -p 8080:80 --name apache_rp api/apache_rp**
 * en tapant **api.demo.ch:8080** dans le browser, on tombe sur la page configurée en section 1 de ce projet (réponse du serveur apache)
 * en tapant **api.demo.ch:8080/api/students/** dans le browser, s'affiche les réponses aléatoires configurées en section 2 de ce projet (réponse du serveur express)
 
+## Step 4: AJAX requests with JQuery
+* Dans le browser, si on inspecte l'élément et qu'on va sous "Réseau" -> "XHR", on voit les requêtes AJAX qui sont faites (périodiquement dans notre configuration).
+* En cliquant sur une requête, "Student" à gauche, on voit le contenu de la requête en question
 
 
 
