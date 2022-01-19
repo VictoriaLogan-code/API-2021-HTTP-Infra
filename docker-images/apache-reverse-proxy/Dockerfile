@@ -1,4 +1,4 @@
-FROM php:7.3-apache
+FROM php:8.1-apache
 
 # Pour pouvoir utiliser vim, on va donc faire ça au moment de la création de l'image
 RUN apt-get update && \
