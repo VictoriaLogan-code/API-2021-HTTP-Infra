@@ -30,7 +30,7 @@
 * Dans le browser, si on inspecte l'élément et qu'on va sous "Réseau" -> "XHR", on voit les requêtes AJAX qui sont faites (périodiquement dans notre configuration).
 * En cliquant sur une requête, "Student" à gauche, on voit le contenu de la requête en question
 
-
+## Step 5: Dynamic reverse proxy configuration
 
 
 
